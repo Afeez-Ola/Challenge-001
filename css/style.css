@@ -1,0 +1,243 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Montserrat' sans-serif;
+}
+
+img{
+    width: 20%;
+    height: 38px;
+}
+
+
+
+.header{
+    position: absolute;
+    bottom: 460px;
+    width: 38%;
+    text-align: center;
+    left: 34%;
+}
+
+.header > p{
+    width: 85%;
+    margin-top: 24px;
+    font-size: 14px;
+    color:  #5d5b6a;
+}
+
+.header> h3 {
+    color:  #5d5b6a;
+    font-size: 24px;
+    font-weight: 200;
+    position: relative;
+    right: 5%;
+    line-height: 1.4;
+}
+
+.header> h2{
+    color: #120136;
+    font-size: 24px; 
+    margin: auto;
+    position: relative;
+    right: 5%;
+} 
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(250, 250, 250);
+    /* margin-right: 80px; */
+    margin: 20px;
+    /* padding-top: 60px; */
+    width: 97%;
+    height: 600px;
+    /* padding-bottom: 0px; */
+
+}
+
+        /* The boxes */
+
+.single-box{
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    width: 200px;
+    height: 130px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+}
+
+.supervisor, .team-builder, .karma, .calculations{
+    box-shadow: 0 8px 6px -6px #dae1e7;
+}
+
+
+.supervisor > h2, .team-builder> h2, .karma > h2, .calculations > h2{
+    color: #120136;
+    font-size: 18px;
+    width: 120px;
+    font-weight: 900;
+    position: relative;
+    right: 12px;
+    bottom: 20px;
+    line-height: 1.2;
+}
+
+.supervisor > img, .karma > img, .calculations > img{
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+
+.team-builder > img{
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+
+.supervisor > p, .calculations > p, .karma > p, .team-builder > p{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 10px;
+    color:  #5d5b6a;
+    position: relative;
+    left: 26px;
+    bottom: 20px;
+    width: 70%;
+    margin: 3px 12px;
+}
+
+        /* Supervisor box */
+.supervisor{
+    background-color: white;
+    border-top: 4px solid #2fc4b2;
+    position: relative;
+    left: 150px;
+    top: 80px;  
+}
+
+        /* Team Builder */
+
+
+.team-builder {
+    background-color: white;
+    border-top: 4px solid #f67280;
+    position: relative;
+    left: 150px;
+    bottom: 40px;  
+}
+
+
+        /* Karma section */
+
+
+.karma{
+    background-color: white;
+    border-top: 4px solid #fcbf1e;
+    position: relative;
+    right: 130px;
+    top: 180px;  
+}
+
+
+        /* Calculations section */
+
+
+.calculations {
+
+    background-color: white;
+    border-top: 4px solid #40bad5;
+    position: relative;
+    right: 130px;
+    top: 70px;  
+}
+
+
+@media screen and (max-width:768px){
+
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(250, 250, 250);
+        /* margin-right: 80px; */
+        margin:80px 30px; 
+        padding-top: 20px;
+        width: 80%;
+        height: 80%;
+        padding-bottom: 50px;
+    
+    }
+
+    .supervisor > p, .calculations > p, .karma > p, .team-builder > p{
+        font-family: 'Montserrat' sans-serif;
+        font-size: 10px;
+        color:  #5d5b6a;
+        position: relative;
+        left: 26px;
+        bottom: 20px;
+        width: 70%;
+        margin: 3px 12px;
+    }
+
+    
+    .single-box{
+        position: relative;
+        display: flex; 
+        justify-content: center;
+        flex-direction: column; 
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .supervisor{
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        position: relative;
+        left: -2px;
+        top: 60px;
+    }
+    .team-builder{
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        position: relative;
+        left: -2px;
+        top: 50px;
+    }
+    .karma{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: -2px;
+        top: 40px;
+    }
+    .calculations{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: -2px;
+        bottom: 200px;
+    }
+    
+}
